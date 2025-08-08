@@ -57,7 +57,7 @@ function validateForm() {
         errsub.textContent = "Subject is required.";
         isValid = false;
     }else if(!/^.{4,}$/.test(subject)){
-        errsub.textContent = "Enter minimum value";
+        errsub.textContent = "Enter atleast 4 letter";
         isValid = false;
     }
 
