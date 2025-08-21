@@ -83,6 +83,15 @@ function sendMail(){
         subject : document.getElementById("subject").value,
         message : document.getElementById("message").value,
     }
-    emailjs.send("service_rony85m","template_by8g233",params).then(alert("Send the message succesfully"));
+    emailjs.send("service_rony85m","template_by8g233",params).then(showSuccess());
 
 }
+
+function showSuccess() {
+    Swal.fire({
+      title: 'Email Sent!',
+      text: 'Your data has been saved.',
+      icon: 'success',
+      confirmButtonText: 'OK'
+    });
+  }

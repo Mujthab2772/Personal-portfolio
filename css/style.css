@@ -165,7 +165,7 @@ a:focus {
     margin-top: 0;
     border: 0;
     border-radius: 0;
-    background: #f8f9fa;
+    background: #ebe8e8;
 }
 
 @media (min-width: 992px) {
@@ -180,7 +180,7 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #ffffff !important;
+        background: #ebe8e8 !important;
     }
     
     .navbar .navbar-brand {
@@ -218,7 +218,7 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #ffffff !important;
+        background: #ebe8e8 !important;
     }
     
     .navbar .navbar-brand {
@@ -1306,7 +1306,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: #EF233C;
+    background: #666666;
 }
 
 .contact .container-fluid {
@@ -1317,7 +1317,7 @@ a:focus {
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
-    background: #EF233C;
+    background: #666666;
 }
 
 .contact .contact-form input {
@@ -1465,7 +1465,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #EF233C;
+    background: #ebe8e8;
 }
 
 .footer .container-fluid {
@@ -1482,14 +1482,14 @@ a:focus {
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 700;
-    color: #ffffff;
+    color: 	#3d3d3d;
 }
 
 .footer .footer-info h3 {
     margin-bottom: 25px;
     font-size: 22px;
     font-weight: 600;
-    color: #ffffff;
+    color: 	#3d3d3d;
 }
 
 .footer .footer-menu {
@@ -1499,12 +1499,12 @@ a:focus {
 }
 
 .footer .footer-menu p {
-    color: #ffffff;
+    color: #3d3d3d;
     font-size: 22px;
     font-weight: 600;
     line-height: 20px;
     padding: 0 15px;
-    border-right: 1px solid #ffffff;
+    border-right: 1px solid 	#3d3d3d;
 }
 
 .footer .footer-menu p:last-child {
@@ -1523,7 +1523,7 @@ a:focus {
 .footer .footer-social a i {
     margin-right: 15px;
     font-size: 20px;
-    color: #ffffff;
+    color: 	#3d3d3d;
     transition: .3s;
 }
 
@@ -1532,7 +1532,7 @@ a:focus {
 }
 
 .footer .footer-social a:hover i {
-    color: #414141;
+    color: #3d3d3d;
 }
 
 .footer .copyright {
@@ -1555,7 +1555,7 @@ a:focus {
 
 .footer .copyright p {
     margin: 0;
-    color: #ffffff;
+    color: 	#3d3d3d;
 }
 
 .footer .copyright .col-md-6:last-child p {
@@ -1563,12 +1563,12 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #ffffff;
+    color: 	#3d3d3d;
     font-weight: 600;
 }
 
 .footer .copyright p a:hover {
-    color: #414141;
+    color: #3d3d3d;
 }
 
 @media (max-width: 575.98px) {
@@ -1591,5 +1591,5 @@ a:focus {
 }
 
 .help-block{
-    color: #111111;
+    color: #781408;
 }
